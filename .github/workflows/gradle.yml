@@ -20,9 +20,6 @@ jobs:
           distribution: 'zulu'
           cache: 'gradle'
 
-      - name: Grant execute permission
-        run: chmod +x gradlew
-
       - name: Build with Gradle
         run: ./gradlew build
 
